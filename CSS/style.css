@@ -1,3 +1,29 @@
+.bodyStyle {
+    background-color: rgb(32, 65, 92);
+}
+
+a.link1 {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    margin: 10px;
+}
+
+h2.header2 {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    margin-left: 1em;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.contactForm {
+    width: 400px;
+    margin-left: 2em;
+}
+
 .footerText {
     color: #2a7ef6;
 }

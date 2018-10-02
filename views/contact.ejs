@@ -4,23 +4,40 @@
 
     <title>Kim Love Realty</title>
 
-    <!-- Stylesheet - Bootstrap -->
-
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
         integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
 <% include header %>
+
 <body>
-  
-    <div role="main" class="container">
-        <br />
-        <h2>Welcome to the
-            <%= title %>!
+    <div class="bodyStyle">
+        <img src="/images/House3.png" width="100%">
+        <h2 class="header2">Contact Us
         </h2>
+        <br />
+       
+            <div class="contactForm">
+                <form action="mailto:kimlovewilson@gmail.com" method="post" enctype="text/plain">
+                    <p>First Name:
+                        <input class="form-control" type="text" name="firstName"></p>
+                    <p>Last Name:
+                        <input class="form-control" type="text" name="LastName"></p>
+                    <p>Email Address:
+                        <input class="form-control" type="text" name="email"></p>
+                    <p>Message:</p>
+                    <textarea class="form-control form-control-lg" name="message" ></textarea><br><br>
+                    <input class="btn btn-light" type="submit" value="Send">
+                    <input class="btn btn-light" type="reset" value="Reset">
+                </form>
+            </div>
+        <br />
     </div>
     <% include footer %>
     <% include scripts %>
+    </div>
 </body>
 
 </html>
