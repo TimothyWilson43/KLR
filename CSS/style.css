@@ -1,5 +1,5 @@
 .bodyStyle {
-    background-color: rgb(32, 65, 92);
+    background-color: black;
 }
 
 a.link1 {
@@ -17,6 +17,10 @@ h2.header2 {
 p {
     font-family: 'Quicksand', sans-serif;
     color: white;
+}
+
+.kimPhoto{
+    margin-left: 30px;
 }
 
 .contactForm {
