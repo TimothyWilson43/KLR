@@ -2,6 +2,17 @@
     background-color: black;
 }
 
+.values{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.valuesText{
+    font-family: 'Cormorant Upright', sans-serif;
+    color: #b2b2b2;
+    font-size: 2em;
+}
+
 a.link1 {
     font-family: 'Quicksand', sans-serif;
     color: white;
@@ -9,14 +20,30 @@ a.link1 {
 }
 
 h2.header2 {
+    font-size: 30px;
     font-family: 'Quicksand', sans-serif;
     color: white;
     margin-left: 1em;
 }
 
-p {
+h1.header1{
+    font-size: 20px;
     font-family: 'Quicksand', sans-serif;
     color: white;
+    margin-left: 1em;
+}
+
+p.paragraph {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    margin-left: 2em;
+}
+
+li.lineItem{
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    margin-left: 2em;
 }
 
 .kimPhoto{
@@ -24,10 +51,12 @@ p {
 }
 
 .contactForm {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
     width: 400px;
     margin-left: 2em;
 }
 
 .footerText {
-    color: #2a7ef6;
+    color: white;
 }
